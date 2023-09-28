@@ -1,15 +1,12 @@
 
-
-					
-					/* ###########################################   QUERYING DATABASE ZOMATOBASE   ############################################# */
+		/* ###########################################   QUERYING DATABASE ZOMATOBASE   ############################################# */
 
 Use Zomatobase
 
-                                                       /*    A. DATA MANIPULATION LANGUAGE (DML)    */
-
+							/*    A. DATA MANIPULATION LANGUAGE (DML)    */
 
                              
-							 /* =================================== INSERT COMMAND =================================== */
+				/* =================================== INSERT COMMAND =================================== */
 
 
 -- Inserting Records/ Values in RESTAURANTS TABLE
@@ -48,10 +45,10 @@ VALUES
 SELECT * FROM Phone_no
 
 
-                                         /* ------------------------------------ INSERT COMMAND END ------------------------------------ */
+				/* ------------------------------------ INSERT COMMAND END ------------------------------------ */
 
 							 
-							  /* ==================================== UPDATE COMMAND =================================== */
+				/* ====================================== UPDATE COMMAND ===================================== */
 
 
 
@@ -81,15 +78,13 @@ Update Restaurants
 
 
                                         
-										/* ------------------------------------ UPDATE COMMAND END ------------------------------------ */
+				/* ------------------------------------ UPDATE COMMAND END ------------------------------------ */
 
-                                                      
-													  
-													   /*    B. DATA QUERY LANGUAGE (DQL)    */
-
+                                                      													  
+							        /*    B. DATA QUERY LANGUAGE (DQL)    */
 
 
-							  /* ===================================== SELECT COMMANDS =================================== */
+				   /* ===================================== SELECT COMMANDS =================================== */
 							  
 
 
@@ -210,7 +205,7 @@ Order By AVG_Ratings DESC
 
 
 
-							  /* =====================================  JOINS COMMANDS  =================================== */		 						 
+				/* =====================================  JOINS COMMANDS  =================================== */		 						 
 
 
 -- 1. Retrieve the names and cuisines of restaurants that have received ratings of 'Excellent' (feedback) and have an average cost for two people less than 500.
@@ -294,7 +289,7 @@ Order by
 	Rate.ratings_out_of_5 Desc
 
 					
-					/* ###########################################   END QUERYING DATABASE ZOMATOBASE   ############################################# */
+		/* ###########################################   END QUERYING DATABASE ZOMATOBASE   ############################################# */
                                                             
 															
 															
